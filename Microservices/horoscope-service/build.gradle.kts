@@ -19,12 +19,15 @@ extra["springCloudVersion"] = "Hoxton.SR8"
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-rest")
+	implementation("org.springframework.boot:spring-boot-starter-hateoas")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("org.springframework.cloud:spring-cloud-starter-circuitbreaker-resilience4j")
-	implementation("org.springframework.cloud:spring-cloud-starter-gateway")
+	implementation("org.springframework.cloud:spring-cloud-starter-gateway") {
+		exclude("org.springframework.boot", "spring-boot-starter-webflux")
+	}
 	implementation("org.springframework.cloud:spring-cloud-starter-netflix-eureka-client")
 	implementation("org.springframework.cloud:spring-cloud-starter-openfeign")
 	testImplementation("org.springframework.boot:spring-boot-starter-test") {
