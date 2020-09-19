@@ -15,6 +15,6 @@ class HoroscopeController() {
     fun fortune(): String {
         val user = userClient.getUsers().content.random()
         val zodiacSign = Horoscope.tellZodiacSign(user.dob)
-        return "${user.name} who was born on ${user.dob}, her/his zodiac sign is $zodiacSign."
+        return "${user.name} who was born on ${user.dob}, her/his zodiac sign is ${zodiacSign!!.symbol()}."
     }
 }
