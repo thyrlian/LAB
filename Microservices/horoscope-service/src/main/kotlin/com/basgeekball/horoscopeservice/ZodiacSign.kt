@@ -66,7 +66,7 @@ enum class ZodiacSign {
 
     abstract fun matches(date: MonthDay): Boolean
 
-    fun isInsideRange(date: MonthDay, startDate: MonthDay, endDate: MonthDay): Boolean {
+    protected fun isInsideRange(date: MonthDay, startDate: MonthDay, endDate: MonthDay): Boolean {
         return if (startDate.isBefore(endDate)) {
             date.isAfter(startDate) && date.isBefore(endDate) || date.equals(startDate) || date.equals(endDate)
         } else {
