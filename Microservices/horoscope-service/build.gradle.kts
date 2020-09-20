@@ -16,6 +16,7 @@ repositories {
 }
 
 extra["springCloudVersion"] = "Hoxton.SR8"
+extra["resilience4jVersion"] = "1.5.0"
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-rest")
@@ -24,12 +25,12 @@ dependencies {
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-	implementation("org.springframework.cloud:spring-cloud-starter-circuitbreaker-resilience4j")
 	implementation("org.springframework.cloud:spring-cloud-starter-gateway") {
 		exclude("org.springframework.boot", "spring-boot-starter-webflux")
 	}
 	implementation("org.springframework.cloud:spring-cloud-starter-netflix-eureka-client")
 	implementation("org.springframework.cloud:spring-cloud-starter-openfeign")
+	implementation("io.github.resilience4j:resilience4j-spring-boot2:${property("resilience4jVersion")}")
 	testImplementation("org.springframework.boot:spring-boot-starter-test") {
 		exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
 	}
