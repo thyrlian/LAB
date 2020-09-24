@@ -12,8 +12,8 @@ Spring Boot + Gradle + Kotlin
   * http://basgeekball:8081/fortune
 
 * **OpenAPI Spec**
-  * http://localhost:<PORT>/api-docs/
-  * http://localhost:<PORT>/swagger-ui.html
+  * http://localhost/api-docs/
+  * http://localhost/swagger-ui.html
 
 ## HowTo
 
