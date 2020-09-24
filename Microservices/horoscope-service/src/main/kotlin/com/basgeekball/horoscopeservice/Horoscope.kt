@@ -1,5 +1,6 @@
 package com.basgeekball.horoscopeservice
 
+import com.basgeekball.horoscopeservice.model.ZodiacSign
 import java.time.MonthDay
 import java.util.*
 

@@ -1,4 +1,4 @@
-package com.basgeekball.horoscopeservice
+package com.basgeekball.horoscopeservice.model
 
 import java.time.MonthDay
 
