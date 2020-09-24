@@ -23,3 +23,7 @@ resilience4j:
     instances:
       horoscopeService:
         baseConfig: default
+
+springdoc:
+  api-docs:
+    path: /api-docs

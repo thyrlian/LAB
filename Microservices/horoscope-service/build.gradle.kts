@@ -17,6 +17,7 @@ repositories {
 
 extra["springCloudVersion"] = "Hoxton.SR8"
 extra["resilience4jVersion"] = "1.5.0"
+extra["openApiVersion"] = "1.4.7"
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-rest")
@@ -31,6 +32,7 @@ dependencies {
 	implementation("org.springframework.cloud:spring-cloud-starter-netflix-eureka-client")
 	implementation("org.springframework.cloud:spring-cloud-starter-openfeign")
 	implementation("io.github.resilience4j:resilience4j-spring-boot2:${property("resilience4jVersion")}")
+	implementation("org.springdoc:springdoc-openapi-ui:${property("openApiVersion")}")
 	testImplementation("org.springframework.boot:spring-boot-starter-test") {
 		exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
 	}

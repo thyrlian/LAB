@@ -11,6 +11,10 @@ Spring Boot + Gradle + Kotlin
 * **Horoscope Service** - consumes User Service, have circuit breaker enabled
   * http://basgeekball:8081/fortune
 
+* **OpenAPI Spec**
+  * http://localhost:<PORT>/api-docs/
+  * http://localhost:<PORT>/swagger-ui.html
+
 ## HowTo
 
 ```bash
