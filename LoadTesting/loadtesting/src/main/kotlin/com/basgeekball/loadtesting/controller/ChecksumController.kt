@@ -2,6 +2,7 @@ package com.basgeekball.loadtesting.controller
 
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController
@@ -27,5 +28,10 @@ class HeavyliftController {
         val messageDigest = md.digest(password.toByteArray(Charsets.UTF_8))
         val hash = BigInteger(1, messageDigest).toString(16).padStart(32, '0')
         return ResponseEntity(hash, HttpStatus.OK)
+    }
+
+    @GetMapping(value = ["/bcrypt"])
+    fun bcrypt(@RequestParam password: String): ResponseEntity<String> {
+        return ResponseEntity(BCryptPasswordEncoder().encode(password), HttpStatus.OK)
     }
 }
