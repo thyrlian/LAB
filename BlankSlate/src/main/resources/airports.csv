@@ -876,7 +876,7 @@ BNY,AGGB,"Bellona/Anua Airport","Bellona Island, Rennell and Bellona, Solomon Is
 BNZ,,"Banz Airport","Banz, Papua New Guinea",UTC+10:00,
 BOA,FZAJ,"Boma Airport","Boma, Democratic Republic of the Congo",UTC+01:00,
 BOB,NTTB,"Bora Bora Airport (Motu Mute Airport)","Bora Bora, French Polynesia",UTC−10:00,
-BOC,MPBO,"Bocas del Toro "Isla Colón" International Airport","Bocas Town, Panama",UTC−05:00,
+BOC,MPBO,"Bocas del Toro ""Isla Colón"" International Airport","Bocas Town, Panama",UTC−05:00,
 BOD,LFBD,"Bordeaux–Mérignac Airport","Bordeaux, Aquitaine, France",UTC+01:00,Mar-Oct
 BOE,FCOB,"Boundji Airport","Boundji, Republic of the Congo",UTC+01:00,
 BOG,SKBO,"El Dorado International Airport","Bogotá, Colombia",UTC−05:00,
@@ -1317,13 +1317,13 @@ CHM,SPEO,"Tnte. FAP Jaime Montreuil Morales Airport","Chimbote, Peru",UTC−05:0
 CHN,RKJU,"Jeonju Airport","Jeonju, South Korea",UTC+09:00,
 CHO,KCHO,"Charlottesville–Albemarle Airport","Charlottesville, Virginia, United States",UTC−05:00,Mar–Nov
 CHP,,"Circle Hot Springs Airport","Circle Hot Springs, Alaska, United States",UTC−09:00,Mar–Nov
-CHQ,LGSA,"Chania International Airport ("Ioannis Daskalogiannis")","Chania, Greece",UTC+02:00,Mar–Oct
-CHR,LFLX,"Châteauroux-Centre "Marcel Dassault" Airport","Châteauroux, Centre-Val de Loire, France",UTC+01:00,Mar–Oct
+CHQ,LGSA,"Chania International Airport (""Ioannis Daskalogiannis"")","Chania, Greece",UTC+02:00,Mar–Oct
+CHR,LFLX,"Châteauroux-Centre ""Marcel Dassault"" Airport","Châteauroux, Centre-Val de Loire, France",UTC+01:00,Mar–Oct
 CHS,KCHS,"Charleston International Airport / Charleston Air Force Base","Charleston, South Carolina, United States",UTC−05:00,Mar–Nov
 CHT,NZCI,"Chatham Islands / Tuuta Airport","Chatham Islands, New Zealand",UTC+12:45,Sep–Apr
 CHU,PACH,"Chuathbaluk Airport (FAA: 9A3)","Chuathbaluk, Alaska, United States",UTC−09:00,Mar–Nov
 CHV,LPCH,"Chaves Airport","Chaves, Portugal",UTC+00:00,Mar–Oct
-CHX,MPCH,"Changuinola "Capitán Manuel Niño" International Airport","Changuinola, Panama",UTC−05:00,
+CHX,MPCH,"Changuinola ""Capitán Manuel Niño"" International Airport","Changuinola, Panama",UTC−05:00,
 CHY,AGGC,"Choiseul Bay Airport","Choiseul Bay, Taro Island, Solomon Islands",UTC+11:00,
 CHZ,,"Chiloquin State Airport (FAA: 2S7)","Chiloquin, Oregon, United States",UTC−08:00,Mar–Nov
 CIA,LIRA,"Ciampino–G. B. Pastine International Airport","Rome, Lazio, Italy",UTC+01:00,Mar–Oct
@@ -2379,7 +2379,7 @@ FOB,,"Fort Bragg Airport (FAA: 82CL)","Fort Bragg, California, United States",UT
 FOC,ZSFZ,"Fuzhou Changle International Airport","Fuzhou, Fujian, China",UTC+08:00,
 FOD,KFOD,"Fort Dodge Regional Airport","Fort Dodge, Iowa, United States",UTC−06:00,Mar-Nov
 FOE,KFOE,"Topeka Regional Airport","Topeka, Kansas, United States",UTC−06:00,Mar-Nov
-FOG,LIBF,"Foggia "Gino Lisa" Airport","Foggia, Apulia, Italy",UTC+01:00,Mar-Oct
+FOG,LIBF,"Foggia ""Gino Lisa"" Airport","Foggia, Apulia, Italy",UTC+01:00,Mar-Oct
 FOK,KFOK,"Francis S. Gabreski Airport","Westhampton Beach, New York, United States",UTC−05:00,Mar-Nov
 FOM,FKKM,"Foumban Nkounja Airport","Foumban, Cameroon",UTC+01:00,
 FON,MRAN,"La Fortuna Arenal Airport","La Fortuna, Costa Rica",UTC−06:00,
@@ -5591,7 +5591,7 @@ OGX,DAUU,"Ain Beida Airport","Ouargla, Algeria",,
 OGZ,URMO,"Beslan Airport","Vladikavkaz, North Ossetia-Alania, Russia",,
 OHA,NZOH,"RNZAF Base Ohakea","Bulls, New Zealand",,
 OHB,,"Ambohibary Airport","Moramanga, Madagascar",,
-OHD,LWOH,"Ohrid "St. Paul the Apostle" Airport","Ohrid, North Macedonia",,
+OHD,LWOH,"Ohrid ""St. Paul the Apostle"" Airport","Ohrid, North Macedonia",,
 OHE,ZYMH,"Mohe Gulian Airport","Mohe, Heilongjiang, China",,
 OHH,UHSH,"Okha Airport (Novostroyka Airport)","Okha, Sakhalin Oblast, Russia",,
 OHI,FYOS,"Oshakati Airport","Oshakati, Namibia",,
@@ -5821,7 +5821,7 @@ OZR,KOZR,"Cairns Army Airfield","Fort Rucker / Ozark, Alabama, United States",,
 OZZ,GMMZ,"Ouarzazate Airport","Ouarzazate, Morocco",,
 PAA,VYPA,"Hpa-An Airport","Hpa-An, Myanmar",,
 PAB,VEBU,"Bilaspur Airport","Bilaspur, Chhattisgarh, India",,
-PAC,MPMG,"Albrook "Marcos A. Gelabert" International Airport","Panama City, Panama",,
+PAC,MPMG,"Albrook ""Marcos A. Gelabert"" International Airport","Panama City, Panama",,
 PAD,EDLP,"Paderborn Lippstadt Airport","Paderborn / Lippstadt, North Rhine-Westphalia, Germany",,
 PAE,KPAE,"Paine Field (Snohomish County Airport)","Everett, Washington, United States",,
 PAF,HUPA,"Pakuba Airfield","Pakuba, Uganda",,
@@ -6904,7 +6904,7 @@ SKC,AYSU,"Suki Airport","Suki, Papua New Guinea",,
 SKD,UTSS,"Samarkand International Airport","Samarkand, Uzbekistan",,
 SKE,ENSN,"Skien Airport, Geiteryggen","Skien, Norway",,
 SKF,KSKF,"Kelly Field Annex / Lackland Air Force Base","San Antonio, Texas, United States",,
-SKG,LGTS,"Thessaloniki Airport "Macedonia"","Thessaloniki, Greece",,
+SKG,LGTS,"Thessaloniki Airport ""Macedonia""","Thessaloniki, Greece",,
 SKH,VNSK,"Surkhet Airport","Surkhet, Nepal",,
 SKI,DABP,"Skikda Airport","Skikda, Algeria",,
 SKK,PFSH,"Shaktoolik Airport (FAA: 2C7)","Shaktoolik, Alaska, United States",,
@@ -6912,7 +6912,7 @@ SKL,EGEI,"Broadford Airfield","Isle of Skye, Scotland, United Kingdom",,
 SKM,,"Skeldon Airport","Skeldon, Guyana",,
 SKN,ENSK,"Stokmarknes Airport, Skagen","Stokmarknes, Norway",,
 SKO,DNSO,"Sadiq Abubakar III International Airport","Sokoto, Nigeria",,
-SKP,LWSK,"Skopje "Alexander the Great" Airport","Skopje, North Macedonia",,
+SKP,LWSK,"Skopje ""Alexander the Great"" Airport","Skopje, North Macedonia",,
 SKQ,FXSK,"Sekake Airport","Sekake, Lesotho",,
 SKR,HASK,"Shakiso Airport","Shakiso, Ethiopia",,
 SKS,EKSP,"Vojens Airport (Skrydstrup Airport)","Vojens, Denmark",,
@@ -6957,7 +6957,7 @@ SME,KSME,"Lake Cumberland Regional Airport","Somerset, Kentucky, United States",
 SMF,KSMF,"Sacramento International Airport","Sacramento, California, United States",,
 SMG,SPMR,"Santa María Airport","Santa María del Mar, Peru",,
 SMH,AYSP,"Sapmanga Airport","Sapmanga, Papua New Guinea",,
-SMI,LGSM,"Samos International Airport "Aristarchos of Samos"","Samos, Greece",,
+SMI,LGSM,"Samos International Airport ""Aristarchos of Samos""","Samos, Greece",,
 SMJ,,"Sim Airport","Sim, Papua New Guinea",,
 SMK,PAMK,"St. Michael Airport","St. Michael, Alaska, United States",,
 SML,MYLS,"Stella Maris Airport","Stella Maris, Long Island, Bahamas",,
@@ -7277,7 +7277,7 @@ SZV,ZSSZ,"Suzhou Guangfu Airport","Suzhou, Jiangsu, China",,
 SZW,EDOP,"Schwerin-Parchim International Airport","Schwerin, Mecklenburg-Vorpommern, Germany",,
 SZX,ZGSZ,"Shenzhen Bao'an International Airport","Shenzhen, Guangdong, China",,
 SZY,EPSY,"Olsztyn-Mazury Regional Airport","Szczytno / Olsztyn, Poland",,
-SZZ,EPSC,""Solidarity" Szczecin–Goleniów Airport","Szczecin, Poland",,
+SZZ,EPSC,"""Solidarity"" Szczecin–Goleniów Airport","Szczecin, Poland",,
 TAA,,"Tarapaina Airport","Tarapaina, Solomon Islands",,
 TAB,TTCP,"Arthur Napoleon Raymond Robinson International Airport","Tobago, Trinidad and Tobago",,
 TAC,RPVA,"Daniel Z. Romualdez Airport","Tacloban, Philippines",,
@@ -7695,7 +7695,7 @@ TTB,LIET,"Tortolì Airport (Arbatax Airport)","Tortolì, Sardinia, Italy",,
 TTC,SCTT,"Las Breas Airport","Taltal, Chile",,
 TTD,KTTD,"Portland–Troutdale Airport","Portland, Oregon, United States",,
 TTE,WAEE,"Sultan Babullah Airport","Ternate, Indonesia",,
-TTG,SAST,"Tartagal "General Enrique Mosconi" Airport","Tartagal, Salta, Argentina",,
+TTG,SAST,"Tartagal ""General Enrique Mosconi"" Airport","Tartagal, Salta, Argentina",,
 TTH,OOTH,"RAFO Thumrait","Thumrait, Oman",,
 TTI,NTTE,"Tetiaroa Airport","Tetiaroa, Society Islands, French Polynesia",,
 TTJ,RJOR,"Tottori Airport","Tottori, Honshu, Japan",,
