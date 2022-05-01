@@ -23,7 +23,12 @@ def add_data_to_file(table, file, tag)
           if /^\s*?\n$/.match(datum.content)
             ''
           else
-            datum.content.gsub(/"/, '""').gsub(/\n/, '').gsub(/\[\d+\]/, '').gsub(/UTC.{1}00:00/, 'UTC+00:00')
+            datum.content.gsub(/"/, '""')
+              .gsub(/\n/, '')
+              .gsub(/\[\d+\]/, '')
+              .gsub(/–/, '-')
+              .gsub(/UTC.{1}00:00/, 'UTC+00:00')
+              .gsub(/(\w{3})-(\w{3})\d+/){"#{$1}-#{$2}"}
           end
         end
         line.map!.with_index do |x, i|
