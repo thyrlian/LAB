@@ -32,7 +32,12 @@ class AirportFactory {
                 val name = record["Airport Name"]
                 val location = record["Location Served"]
                 val time = record["Time"]
-                val dst = record["DST"]
+                val dst = if (record["DST"].isBlank()) {
+                    null
+                } else {
+                    val (beginMonth, endMonth) = Regex("(\\w{3})-(\\w{3})").find(record["DST"])!!.destructured
+                    Pair(MonthMapper.map(beginMonth)!!, MonthMapper.map(endMonth)!!)
+                }
                 airports.add(Airport(iata, icao, name, location, time, dst))
             }
             return airports
