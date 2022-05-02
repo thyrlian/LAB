@@ -28,17 +28,17 @@ class AirportFactory {
             val airports: ArrayList<Airport> = ArrayList()
             for (record in records) {
                 val iata = record["IATA"]
-                val icao = record["ICAO"]
+                val icao = record["ICAO"].ifBlank { null }
                 val name = record["Airport Name"]
                 val location = record["Location Served"]
-                val time = record["Time"]
+                val timezone = record["Time"].ifBlank { null }
                 val dst = if (record["DST"].isBlank()) {
                     null
                 } else {
                     val (beginMonth, endMonth) = Regex("(\\w{3})-(\\w{3})").find(record["DST"])!!.destructured
                     Pair(MonthMapper.map(beginMonth)!!, MonthMapper.map(endMonth)!!)
                 }
-                airports.add(Airport(iata, icao, name, location, time, dst))
+                airports.add(Airport(iata, icao, name, location, timezone, dst))
             }
             return airports
         }
