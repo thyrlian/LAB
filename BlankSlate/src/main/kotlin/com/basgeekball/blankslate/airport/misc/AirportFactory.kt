@@ -11,7 +11,7 @@ import java.net.URL
 class AirportFactory {
     companion object {
         val CSV_FILE = "airports.csv"
-        val HEADERS = arrayOf("IATA", "ICAO", "Airport Name", "Location Served", "Time", "DST")
+        val HEADERS = arrayOf("IATA", "ICAO", "Airport Name", "Location Served", "Timezone", "DST")
 
         private fun parse(csvFile: String): Iterable<CSVRecord> {
             val resource: URL = this::class.java.classLoader.getResource(csvFile)
@@ -31,7 +31,7 @@ class AirportFactory {
                 val icao = record["ICAO"].ifBlank { null }
                 val name = record["Airport Name"]
                 val location = record["Location Served"]
-                val timezone = record["Time"].ifBlank { null }
+                val timezone = record["Timezone"].ifBlank { null }
                 val dst = if (record["DST"].isBlank()) {
                     null
                 } else {

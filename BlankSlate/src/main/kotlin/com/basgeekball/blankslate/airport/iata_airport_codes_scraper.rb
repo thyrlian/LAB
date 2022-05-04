@@ -9,7 +9,7 @@ file = 'airports.csv'
 
 # write the header
 File.open(file, 'w') do |f|
-  f.write("IATA,ICAO,Airport Name,Location Served,Time,DST\n")
+  f.write("IATA,ICAO,Airport Name,Location Served,Timezone,DST\n")
 end
 
 def add_data_to_file(table, file, tag)
@@ -27,6 +27,7 @@ def add_data_to_file(table, file, tag)
               .gsub(/\n/, '')
               .gsub(/\[\d+\]/, '')
               .gsub(/–/, '-')
+              .gsub(/−/, '-')
               .gsub(/UTC.{1}00:00/, 'UTC+00:00')
               .gsub(/(\w{3})-(\w{3})\d+/){"#{$1}-#{$2}"}
           end
