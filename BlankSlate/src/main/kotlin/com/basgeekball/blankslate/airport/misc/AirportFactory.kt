@@ -7,6 +7,7 @@ import java.io.File
 import java.io.FileReader
 import java.io.Reader
 import java.net.URL
+import java.time.ZoneOffset
 
 class AirportFactory {
     companion object {
@@ -31,7 +32,11 @@ class AirportFactory {
                 val icao = record["ICAO"].ifBlank { null }
                 val name = record["Airport Name"]
                 val location = record["Location Served"]
-                val timezone = record["Timezone"].ifBlank { null }
+                val timezone = if (record["Timezone"].isBlank()) {
+                    null
+                } else {
+                    ZoneOffset.of(Regex("UTC([+-]\\d{2}:\\d{2})").find(record["Timezone"])?.groupValues?.get(1))
+                }
                 val dst = if (record["DST"].isBlank()) {
                     null
                 } else {
